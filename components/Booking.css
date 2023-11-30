@@ -1,0 +1,83 @@
+
+.background-booking {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgba(32, 17, 17, 0.922) 0%, rgba(61, 60, 60, 0.563) 100%);
+  }
+  
+  .booking-container-booking {
+    max-width: 100%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top:400px;
+    margin-bottom: 150px;
+    background: #11111690;
+    
+  }
+  
+  form {
+    margin-top: 20px;
+    background: #4f404cdb;
+    color: beige;
+  }
+  
+ 
+  label {
+    display: block;
+    margin-bottom: 10px;
+    margin-right:20px;
+    color: #cecdcd;
+    font-size: 18px;
+   text-align: left;
+   
+    
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #575758;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .or-divider {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .guest-link {
+    color: #1e90ff;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: bold;
+  }
+  
+  .empty {
+    height: 20px;
+  }
+
+
+  .booking-content {
+    margin-top: 20px;
+  }
+  
+  .line-separator {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }

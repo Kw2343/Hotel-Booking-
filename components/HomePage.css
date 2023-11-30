@@ -1,0 +1,175 @@
+
+body {
+    display:flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    background-image: url('/src/assets/Hotel.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+    font-family:Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+  }
+
+  .background-gradient {
+    background: linear-gradient(to bottom, rgba(32, 17, 17, 0.6) 0%, rgba(255, 255, 255, 0.296) 100%), url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .logo {
+    width: 300px; 
+    margin-top: 10px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2; 
+  }
+  
+  
+  .navbar {
+    color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top: 200px;
+    background-color: rgba(128, 128, 128, 0.407);
+    z-index: 2;
+    
+  }
+  
+  
+  .login-signup-buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .login-signup-buttons a {
+    text-decoration: none;
+    color: #d6d5d5;
+    font-weight:600;
+    padding: 10px 20px;
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color: rgba(153, 153, 161, 0.453);
+  }
+  
+  .login-signup-buttons a:hover {
+    background-color: rgba(161, 161, 181, 0.9); 
+  }
+
+  .admin-login {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+  }
+  
+  .admin-login a {
+    text-decoration: none;
+    color: #d6d5d5;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(153, 153, 161, 0.453);
+  }
+  
+  .admin-login a:hover {
+    background-color: rgba(161, 161, 181, 0.9);
+  }
+  
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    top: 200px;
+    z-index: 2;
+    
+  }
+  
+  .nav-links li {
+    margin-right: 80px;
+    position: relative;
+    display: flex;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #dadbdd; 
+    font-size: 18px;
+    font-weight:600;
+    position: relative;
+    align-items: center;
+    padding-right: 5px;
+    
+  }
+  
+  .nav-links a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 100%;
+    background-color: #fffff0; 
+    height: 2px;
+    transition: right 0.3s ease;
+  }
+  
+  .nav-links a:hover::before {
+    right: 0;
+  }
+
+
+
+.booking-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, rgba(56, 9, 9, 0.676) 0%, rgba(56, 9, 9, 0.504) 100%), url('');
+  border: 0.5px solid #dddddd32;
+  border-radius: 5px;
+  margin: 20px 0;
+  margin-top:400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
+  color: rgba(240, 248, 255, 0.936);
+  position: relative;
+  max-width: 90%;
+  z-index: 1;
+}
+
+
+.quantity-fields {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-field {
+  margin-right: 10px; 
+}
+
+
