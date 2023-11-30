@@ -4,7 +4,7 @@ import { ref, getDownloadURL } from "firebase/storage";
 import { collection, getDocs } from 'firebase/firestore';
 import { db, storage } from "../config/firebase";
 import "./Home.css";
-import "./Dining.css"; // You can create a separate Dining.css file for styling
+import "./Dining.css"; 
 import FooterInfoBox from './FooterInfoBox';
 
 function Dining() {
