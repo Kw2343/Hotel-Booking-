@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
-import { auth } from '../config/firebase'; // Make sure to import your Firebase auth instance
+import { auth } from '../config/firebase'; 
 import googleIcon from '../assets/Google.svg'; 
 import './Booking.css';
 import HomePage from './HomePage';
